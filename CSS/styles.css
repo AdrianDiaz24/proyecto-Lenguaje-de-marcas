@@ -16,7 +16,7 @@
 }
 
 header{
-    background-color: aliceblue;
+    background-color: rgb(231, 234, 238);
     display: flex;
 }
 
@@ -27,4 +27,9 @@ body{
 .nombre_pagina{
     text-align: top;
     padding-left: 30px;
+}
+
+.barra_busqueda{
+    text-align: center;
+    padding-left: 5%;
 }
