@@ -30,6 +30,6 @@ body{
 }
 
 .barra_busqueda{
-    text-align: center;
-    padding-left: 5%;
+    align-content: center;
+    padding-left: 20%;
 }
