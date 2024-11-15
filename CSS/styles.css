@@ -17,6 +17,7 @@
 
 header{
     background-color: aliceblue;
+    display: flex;
 }
 
 body{
@@ -25,5 +26,5 @@ body{
 
 .nombre_pagina{
     text-align: top;
-    padding-left: 80px;
+    padding-left: 30px;
 }
