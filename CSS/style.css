@@ -1,0 +1,16 @@
+.menu_hamburguesa{
+    width: 35px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.linea{
+    height: 4px;
+    width: 100%;
+    background-color: grey;
+    border-radius: 2px;
+}
+
