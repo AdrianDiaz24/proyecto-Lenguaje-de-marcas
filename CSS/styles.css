@@ -1,10 +1,11 @@
 .menu_hamburguesa{
-    width: 35px;
-    height: 25px;
+    width: 25px;
+    height: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
+    padding: 15px;
 }
 
 .linea{
@@ -14,3 +15,15 @@
     border-radius: 2px;
 }
 
+header{
+    background-color: aliceblue;
+}
+
+body{
+    margin: 0px;
+}
+
+.nombre_pagina{
+    text-align: top;
+    padding-left: 80px;
+}
