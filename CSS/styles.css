@@ -6,7 +6,7 @@
     justify-content: space-between;
     cursor: pointer;
     padding: 15px;
-    padding-top: 3%;
+    padding-top: 30px;
 
 }
 
@@ -33,7 +33,7 @@ body{
 
 .barra_busqueda{
     align-content: center;
-    padding-left: 20%;
+    padding-left: 25%;
 }
 
 .boton_busqueda{
