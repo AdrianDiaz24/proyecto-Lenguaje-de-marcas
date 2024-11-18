@@ -89,4 +89,15 @@ footer{
 .fotos_productos{
     width: 180px;
     height: 200px;
+    padding: 10%;
+}
+
+button{
+    cursor: pointer;
+}
+
+.comprar{
+    width: 65%;
+    margin-top: 5%;
+    margin-right: 10%;
 }
