@@ -39,3 +39,8 @@ body{
 .boton_busqueda{
     cursor: pointer;
 }
+
+.lupa{
+    width: 15px;
+    height: 15px;
+}
