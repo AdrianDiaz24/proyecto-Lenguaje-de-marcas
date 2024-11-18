@@ -79,3 +79,14 @@ footer{
     display: flex;
     flex-direction: column;
 }
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.fotos_productos{
+    width: 180px;
+    height: 200px;
+}
