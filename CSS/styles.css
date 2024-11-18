@@ -35,10 +35,22 @@ body{
 }
 
 .barra_busqueda{
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    padding: 5px;
 }
+
+@media (width <= 960px){
+    .barra_busqueda{
+        position:initial;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+       
+}
+    
 
 .boton_busqueda{
     cursor: pointer;
@@ -124,7 +136,7 @@ p{
 
 .cuerpo{
     min-height: 90vh;
-    padding-top: 5%;
+    padding-top: 100px;
 }
 
 html, body{
