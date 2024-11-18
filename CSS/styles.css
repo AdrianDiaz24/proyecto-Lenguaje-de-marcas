@@ -47,9 +47,29 @@ body{
         display: flex;
         justify-content: space-around;
         align-items: center;
+        padding: 15px;
     }
-       
+    .cuerpo{
+        width: 300px;
+    }
 }
+
+@media (width <= 725px){
+    .linea_productos{
+        display: flex;
+        flex-direction: column;
+    }
+    .productos_total{
+        display: flex;
+        width: 100vh;
+        justify-content: center;
+    }
+
+    .productos{
+      width: 250px; 
+    }
+}
+
     
 
 .boton_busqueda{
