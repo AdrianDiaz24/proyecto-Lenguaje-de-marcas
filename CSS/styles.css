@@ -49,6 +49,12 @@ body{
         align-items: center;
         padding: 15px;
     }
+    .barra_busqueda{
+        width: 80%;
+        padding: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
 @media (width <= 730px){
@@ -66,17 +72,26 @@ body{
     .productos{
       width: 250px; 
     }
-}
-
-@media(width <= 660px){
     .nombre_pagina{
         display: none;
     }
+
+}
+
+@media(width <= 660px){
+
     .linea_productos{
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
+    }
+
+    }
+    .icono_div1{
+        display: flex;
+        justify-content: end;
+        align-items: center;
     }
 }
 
