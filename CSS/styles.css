@@ -62,3 +62,15 @@ body{
     padding-right: 15px;
     padding-left: 15px;
 }
+
+footer{
+    background-color: gray;
+}
+
+.productos{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 7%;
+}
