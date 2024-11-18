@@ -38,9 +38,27 @@ body{
 
 .boton_busqueda{
     cursor: pointer;
+    align-content: center;
 }
 
 .lupa{
     width: 15px;
     height: 15px;
+}
+
+.icono{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.icono_div1{
+    align-content: center;
+    margin-left: auto;
+}
+
+.icono_div2{
+    align-content: center;
+    padding-right: 15px;
+    padding-left: 15px;
 }
