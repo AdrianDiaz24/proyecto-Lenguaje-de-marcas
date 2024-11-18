@@ -20,10 +20,13 @@
 header{
     background-color: rgb(231, 234, 238);
     display: flex;
+    position: fixed;
+    width: 100%;
 }
 
 body{
     margin: 0px;
+    height: auto;
 }
 
 .nombre_pagina{
@@ -65,11 +68,12 @@ body{
 
 footer{
     background-color: rgb(231, 234, 238);
-    position: fixed;
+    position:static;
     width: 100%;
-    bottom: 0;
+    bottom: 0px;
     display: flex;
     justify-content: left;
+    padding-bottom: 10px;
 }
 
 .linea_productos{
@@ -77,7 +81,7 @@ footer{
     justify-content: space-around;
     margin-left: 25%;
     margin-right: 25%;
-    padding-top: 20px;
+    border: 20%;
 }
 
 .productos_total{
@@ -116,4 +120,13 @@ button{
 p{
     margin: 5px;
     cursor: pointer;
+}
+
+.cuerpo{
+    min-height: 90vh;
+    padding-top: 5%;
+}
+
+html, body{
+    height: 100%;
 }
