@@ -64,7 +64,10 @@ body{
 }
 
 footer{
-    background-color: gray;
+    background-color: rgb(231, 234, 238);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 .linea_productos{
@@ -72,7 +75,7 @@ footer{
     justify-content: space-around;
     margin-left: 25%;
     margin-right: 25%;
-    padding-top: 7%;
+    padding-top: 20px;
 }
 
 .productos_total{
@@ -100,4 +103,9 @@ button{
     width: 65%;
     margin-top: 5%;
     margin-right: 10%;
+}
+
+.columna_footer{
+    display: flex;
+    flex-direction: column;
 }
