@@ -68,6 +68,8 @@ footer{
     position: fixed;
     width: 100%;
     bottom: 0;
+    display: flex;
+    justify-content: left;
 }
 
 .linea_productos{
@@ -108,4 +110,10 @@ button{
 .columna_footer{
     display: flex;
     flex-direction: column;
+    padding-left: 20px;
+}
+
+p{
+    margin: 5px;
+    cursor: pointer;
 }
