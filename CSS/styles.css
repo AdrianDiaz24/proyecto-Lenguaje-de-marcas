@@ -67,10 +67,15 @@ footer{
     background-color: gray;
 }
 
-.productos{
+.linea_productos{
     display: flex;
     justify-content: space-around;
     margin-left: 25%;
     margin-right: 25%;
     padding-top: 7%;
+}
+
+.productos_total{
+    display: flex;
+    flex-direction: column;
 }
