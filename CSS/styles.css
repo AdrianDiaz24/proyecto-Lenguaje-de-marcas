@@ -177,8 +177,10 @@ footer{
 
 .linea_productos{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     border: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .productos_total{
