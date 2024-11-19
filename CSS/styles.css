@@ -41,7 +41,7 @@ body{
     padding: 5px;
 }
 
-@media (width <= 960px){
+@media (width <= 980px){
     .barra_busqueda{
         position:initial;
         display: flex;
@@ -57,7 +57,7 @@ body{
         align-items: center;
 }
 
-@media (width <= 730px){
+@media (width <= 970px){
     .linea_productos{
         display: flex;
         flex-direction: column;
@@ -179,8 +179,8 @@ footer{
     display: flex;
     justify-content: space-around;
     border: 20%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .productos_total{
