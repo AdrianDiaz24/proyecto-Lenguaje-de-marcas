@@ -270,6 +270,7 @@ a{
     grid-template-rows: repeat(3,1fr);
     padding-left: 25%;
     padding-right: 25%;
+    column-gap: 100px;
 }
 
 .productos_principal{
@@ -291,4 +292,10 @@ a{
 .descripcion_producto{
     grid-row: 3/4;
     grid-column: 1/4;
+    font-size: 14;
+}
+
+.fotos_producto_secundario{
+    height: 65%;
+    width: 100%;
 }
