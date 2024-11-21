@@ -409,3 +409,29 @@ a{
     display: flex;
     flex-direction: column;
 }
+
+.foto_pedidos{
+    width: 150px;
+    height: 150px;
+}
+
+.recuadro_pedido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.precio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton_incidencia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
