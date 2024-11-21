@@ -376,3 +376,13 @@ a{
     align-items: center;
     width: 300px;
 }
+
+.cuadro_registro{
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 350px;
+    height: 300px;
+}
