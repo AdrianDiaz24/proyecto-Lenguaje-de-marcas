@@ -386,3 +386,24 @@ a{
     width: 350px;
     height: 300px;
 }
+
+.cuerpo_usuario{
+    min-height: 90vh;
+    padding-top: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recuadro_usuario{
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 800PX;
+}
+
+.recuadro_interior_usuario{
+    display: flex;
+    flex-direction: column;
+}
