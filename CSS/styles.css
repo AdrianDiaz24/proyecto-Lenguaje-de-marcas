@@ -348,3 +348,31 @@ a{
     justify-content: center;
     align-items: center;
 }
+
+.cuadro_inicio_sesion{
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 350px;
+    height: 250px;
+}
+
+.cuerpo_sesion{
+    min-height: 90vh;
+    padding-top: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recuadro_sesion{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
