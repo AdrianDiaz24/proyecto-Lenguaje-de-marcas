@@ -391,6 +391,7 @@ a{
     min-height: 90vh;
     padding-top: 100px; 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -401,6 +402,7 @@ a{
     display: flex;
     flex-direction: row;
     width: 800PX;
+    margin: 10px;
 }
 
 .recuadro_interior_usuario{
