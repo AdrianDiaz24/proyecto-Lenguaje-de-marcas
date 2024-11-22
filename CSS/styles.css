@@ -278,7 +278,7 @@ a{
 .grid{
     display: grid;
     gap: 70px;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: 400px 100px 1fr;
     grid-template-rows: repeat(2,1fr);
     padding-left: 25%;
     padding-right: 25%;
