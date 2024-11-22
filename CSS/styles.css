@@ -245,6 +245,13 @@ button{
     padding-top: 15px;
 }
 
+.linea_compra_principal{
+    display: flex;
+    width: 100%;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
 .columna_footer{
     display: flex;
     flex-direction: column;
