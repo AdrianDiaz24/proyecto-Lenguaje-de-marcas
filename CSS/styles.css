@@ -229,9 +229,20 @@ button{
 }
 
 .comprar{
-    width: 65%;
-    margin-top: 5%;
+    width: 165px;
     margin-right: 10%;
+    border: 1px solid;
+    background-color: rgb(231, 234, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linea_compra{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 15px;
 }
 
 .columna_footer{
