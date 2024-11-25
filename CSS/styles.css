@@ -67,7 +67,7 @@ body{
     }
 }
 
-@media (width <= 970px){
+@media (width <= 1023px){
     .linea_productos{
         display: flex;
         flex-direction: column;
@@ -207,8 +207,7 @@ footer{
 
 .linea_productos{
     display: flex;
-    justify-content: space-around;
-    border: 20%;
+    justify-content: space-evenly;
     padding-left: 15%;
     padding-right: 15%;
 }
@@ -257,6 +256,7 @@ button{
     justify-content: space-evenly;
     width: 100%;
     padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 .linea_compra_principal{
@@ -532,4 +532,56 @@ a{
     display: flex;
 }
 
-    
+.cuerpo_oferta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    @media (width <= 1250px){
+        width: 850px;
+        margin-right: 0%;
+    }
+    @media (width <= 1023px){
+        width: auto;
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px solid;
+}
+
+.linea_productos_oferta{
+        display: flex;
+        justify-content: space-around;
+        @media (width <= 1023px){
+            flex-direction: column;
+        }
+}
+
+.comprar_oferta{
+    width: 240px;
+    margin-right: 10%;
+    border: 1px solid;
+    background-color: rgb(231, 234, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linea_compra_oferta{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.precio_no_oferta{
+    text-decoration: line-through;
+}
+
+.descuento{
+    color: red;
+}
