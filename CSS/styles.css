@@ -249,6 +249,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .linea_compra{
@@ -568,6 +569,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .linea_compra_oferta{
