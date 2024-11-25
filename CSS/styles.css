@@ -603,3 +603,40 @@ a{
 li{
     padding: 10px;
 }
+
+.recuadro_interior_usuario input[type="checkbox"]{
+    display: none;
+}
+
+.menu_usuario{
+    display: block;   
+}
+
+#menu-usuario-toggle:checked ~ .menu_usuario{
+    display: block;
+}
+
+#menu-usuario-toggle:checked ~ .foto_flecha_derecha{
+    transform: rotate(90deg);
+}
+
+.foto_flecha_derecha{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-top: 70%;
+}
+
+.recuadro_interior_superior_usuario{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.foto_flecha_abajo{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    padding-left: 15px;
+}
