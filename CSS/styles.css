@@ -232,7 +232,7 @@ footer{
 }
 
 .fotos_productos{
-    object-fit: cover;
+    object-fit:fill;
 
 }
 
