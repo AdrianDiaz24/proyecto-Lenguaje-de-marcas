@@ -591,3 +591,10 @@ a{
 .menu li{
     padding: 10px;
 }
+
+.menu_inicio{
+    display: none;
+    @media (width <= 1060px){
+        display: list-item;
+    }
+}
