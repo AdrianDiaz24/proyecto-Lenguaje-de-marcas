@@ -6,7 +6,8 @@
     justify-content: space-between;
     cursor: pointer;
     padding: 15px;
-    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 
 }
 
@@ -143,6 +144,13 @@ body{
     }
     html{
         font-size: 12;
+    }
+    .menu_hamburguesa{
+        padding-bottom: 15px;
+        padding-top: 30px;
+    }
+    .barra_busqueda{
+        padding-left: 15px;
     }
 }   
  
@@ -484,3 +492,23 @@ a{
     align-items: center;
     width: 370px;
 }
+
+.menu{
+    position: absolute;
+    top: 63px;
+    left: 1px;
+    display: none;
+    background-color:rgb(231, 234, 238);
+    flex-direction: column;
+    border: 1px solid;
+}
+
+#menu-toggle{
+    display: none;
+}
+
+#menu-toggle:checked ~ .menu{
+    display: flex;
+}
+
+    
