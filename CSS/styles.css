@@ -585,3 +585,7 @@ a{
 .descuento{
     color: red;
 }
+
+.menu li{
+    padding: 10px;
+}
