@@ -599,3 +599,7 @@ a{
         display: list-item;
     }
 }
+
+li{
+    padding: 10px;
+}
