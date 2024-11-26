@@ -638,3 +638,11 @@ li{
     cursor: pointer;
     padding-left: 15px;
 }
+
+#menu-pedidos-toggle:checked ~ .recuadro_pedido{
+    display: none;
+}
+
+#menu-pedidos-toggle:checked ~ .foto_flecha_derecha{
+    transform: rotate(90deg);
+}
