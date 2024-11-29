@@ -471,6 +471,9 @@ a{
     flex-direction: row;
     width: 800PX;
     margin: 10px;
+    @media (width <= 850px) {
+        width: 90%;
+    }
 }
 
 .recuadro_interior_usuario{
@@ -621,7 +624,8 @@ li{
 }
 
 .menu_usuario{
-    display: block;   
+    display: none;
+    width: 100%;
 }
 
 #menu-usuario-toggle:checked ~ .menu_usuario{
@@ -629,7 +633,7 @@ li{
 }
 
 #menu-usuario-toggle:checked ~ .foto_flecha_derecha{
-    transform: rotate(90deg);
+    display: none;
 }
 
 .foto_flecha_derecha{
@@ -640,10 +644,23 @@ li{
     padding-top: 70%;
 }
 
+.foto_flecha_derecha_usuario{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-top: 70%;
+}
+
+#menu-usuario-toggle:checked ~ .foto_flecha_derecha_usuario{
+    display: none;
+}
+
 .recuadro_interior_superior_usuario{
     display: flex;
     flex-direction: row;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .foto_flecha_abajo{
