@@ -480,12 +480,11 @@ a{
     border: 1px solid;
     padding: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 800PX;
     margin: 10px;
     @media (width <= 850px) {
         width: 90%;
-        flex-wrap: wrap;
     }
 }
 
