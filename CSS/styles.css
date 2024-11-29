@@ -476,6 +476,19 @@ a{
     }
 }
 
+.recuadro_grande_pedido{
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 800PX;
+    margin: 10px;
+    @media (width <= 850px) {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+}
+
 .recuadro_interior_usuario{
     display: flex;
     flex-direction: column;
@@ -491,6 +504,14 @@ a{
     flex-direction: row;
     justify-content: space-between;
     width: 800px;
+    padding-top: 15px;
+    @media (width <= 850px){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-left: auto;
+    }
 }
 
 .precio{
@@ -689,4 +710,15 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.menu_usuario_sumary{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.alinear_botones_seguridad{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
 }

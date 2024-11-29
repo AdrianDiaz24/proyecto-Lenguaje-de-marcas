@@ -41,74 +41,84 @@
             <main class="cuerpo_usuario">
                 <article class="recuadro_usuario">
                     <article class="recuadro_interior_usuario">
-                        <div class="recuadro_interior_superior_usuario">
-                            <h2>Información de usuario</h2>
-                            <input type="checkbox" id="menu-usuario-toggle">
-                            <label for="menu-usuario-toggle">
-                                <img class="foto_flecha_derecha_usuario" src="../Images/flecha-abajo.png" alt="flecha-derecha">
-                            </label>
-                            <ul class="menu_usuario">
-                                <li>Nombre completo: Adrian Diaz Angulo</li>
-                                <li>Email: adriandiazangulo@gmail.com</li>
-                                <li>Usuario: adriandiazangulo</li>
-                                <li>Contraseña: ******</li>
-                                <li>Teléfono: +569 911 1234567</li>
-                                <li>Dirección: Jerez de la Frontera, Cadiz, Spain</li>
-                                <li>Sexo: Hombre</li>
-                                <li>Edad: 20 años</li>
-                            </ul>
-                        </div>
+                        <details>
+                            <summary class="menu_usuario_sumary">Información de usuario</summary>
+                            <div>
+                                <ul>
+                                    <li>Nombre completo: Adrian Diaz Angulo</li>
+                                    <li>Email: adriandiazangulo@gmail.com</li>
+                                    <li>Usuario: adriandiazangulo</li>
+                                    <li>Teléfono: +569 911 1234567</li>
+                                    <li>Dirección: Jerez de la Frontera, Cadiz, Spain</li>
+                                    <li>Sexo: Hombre</li>
+                                    <li>Edad: 20 años</li>
+                                </ul>
+                            </div>
+                        </details>
+                    </article>
+                </article>
+                <article class="recuadro_grande_pedido">
+                    <article class="recuadro_interior_usuario">
+                        <details>
+                            <summary class="menu_usuario_sumary">Mis pedidos</summary>
+                            <article class="recuadro_pedido">
+                                <a href="producto_RTX4080_SG_OC.html"> <img class="foto_pedidos" src="../Images/RTX4080_SG_OC_grande.png" alt="RTX4080 Super Gaming OC"></a>
+                                <article class="precio">
+                                    <p> <a href="producto_RTX4080_SG_OC.html">RTX4080 Super Gaming OC</a></p><br>
+                                    1192€
+                                </article>
+                                <article class="precio">
+                                    <p>Fecha de compra</p><br>
+                                    18/11/2024
+                                </article>
+                                <article class="precio">
+                                    <p>Recibido el:</p><br>
+                                    21/11/2024
+                                </article>
+                                <article class="boton_incidencia">
+                                    <button type="button">Gestionar incidencia</button>
+                                </article>
+                            </article>
+                        </details>
                     </article>
                 </article>
                 <article class="recuadro_usuario">
                     <article class="recuadro_interior_usuario">
-                        <div class="recuadro_interior_superior_usuario">
-                            <h2>Mis pedidos</h2>
-                            <input type="checkbox" id="menu-pedidos-toggle">
-                            <label for="menu-pedidos-toggle">
-                                <img class="foto_flecha_derecha" src="../Images/flecha-abajo.png" alt="flecha-derecha">
-                            </label>
-                        </div>
-                        <article class="recuadro_pedido">
-                            <a href="producto_RTX4080_SG_OC.html"> <img class="foto_pedidos" src="../Images/RTX4080_SG_OC_grande.png" alt="RTX4080 Super Gaming OC"></a>
-                            <article class="precio">
-                                <p> <a href="producto_RTX4080_SG_OC.html">RTX4080 Super Gaming OC</a></p><br>
-                                1192€
-                            </article>
-                            <article class="precio">
-                                <p>Fecha de compra</p><br>
-                                18/11/2024
-                            </article>
-                            <article class="precio">
-                                <p>Recibido el:</p><br>
-                                21/11/2024
-                            </article>
-                            <article class="boton_incidencia">
-                                <button type="button">Gestionar incidencia</button>
-                            </article>
-                        </article>
+                        <details>
+                            <summary class="menu_usuario_sumary">Seguridad y privacidad</summary>
+                            <div>
+                                <ul>
+                                    <li>Cambiar contraseña:</li>
+                                    <ul>
+                                        <li>Contraseña actual: <input type="password"></li>
+                                        <li>Nueva contraseña: <input type="password"></li>
+                                        <li>Repetir contraseña: <input type="password"></li>
+                                    </ul>
+                                    <div class="alinear_botones_seguridad">
+                                        <button>Cambiar contraseña</button>
+                                        <button>No recuerdo mi contraseña</button>
+                                    </div>
+                                    <li>Correo de recuperación: adriandiazangulo@gmail.com</li>
+                                    <li>Politica de privacidad</li>
+                                </ul>
+                            </div>
+                        </details>
                     </article>
                 </article>
                 <article class="recuadro_usuario">
                     <article class="recuadro_interior_usuario">
-                        <div class="recuadro_interior_superior_usuario">
-                            <h2>Seguridad y privacidad</h2>
-                            <input type="checkbox" id="menu-seguridad-toggle">
-                            <label for="menu-seguridad-toggle">
-                                <img class="foto_flecha_derecha" src="../Images/flecha-derecha.png" alt="flecha-derecha">
-                            </label>
-                        </div>
-                    </article>
-                </article>
-                <article class="recuadro_usuario">
-                    <article class="recuadro_interior_usuario">
-                        <div class="recuadro_interior_superior_usuario">
-                            <h2>Otros ajustes</h2>
-                            <input type="checkbox" id="menu-otros-toggle">
-                            <label for="menu-otros-toggle">
-                                <img class="foto_flecha_derecha" src="../Images/flecha-derecha.png" alt="flecha-derecha">
-                            </label>
-                        </div>
+                        <details>
+                            <summary class="menu_usuario_sumary">Metodos de pago</summary>
+                            <div>
+                                <ul>
+                                    <li>Visa terminada en 5472</li>
+                                    <li>Mastercard terminada en 4329</li>
+                                    <div class="alinear_botones_seguridad">
+                                        <button>Añadir otro método de pago</button>
+                                    </div>
+                                </ul>
+                            </div>
+                        </details>
                     </article>
                 </article>
             </main>
