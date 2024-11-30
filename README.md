@@ -206,9 +206,9 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
     - 19 Warnings: Considerar el uso de h2-h6 en los article, no se añade ya que estos se encuentran en los botones de compra que se encuntran bien
     - 1 Warning: Considerar no usar el h1 ya que puede dar fallos en algun otro dispositivo, Se cambia en h1 por un h2
       
-  - 2º Pestaña del producto
-    - 5 Warnings: Considerar el uso de h2-h6, no se añade al ser errores en los botones de compra
-    - 2 Warnings: Considerar no usar el h1, se sustituye el h1 por el h2
+  - 2º Pestañas de los productos (3 paginas)
+    - 12 Warnings: Considerar el uso de h2-h6, no se añade al ser errores en los botones de compra
+    - 6 Warnings: Considerar no usar el h1, se sustituye el h1 por el h2
     - 12 Errors: No permitido el uso de li en los articles, se añaden en un ul lo cual soluciona el error
-    - 35 Errors: No permitido el uso de br en los li, se retiran los br y se añade mas espacion desde el CSS
-    - 7 Errors: No permitido que ul sea niño de otro ul, se elimina el ul padre y se restructura levemente el codigo para que mantega la estructura pensada
+    - 92 Errors: No permitido el uso de br en los li, se retiran los br y se añade mas espacion desde el CSS
+    - 10 Errors: No permitido que ul sea niño de otro ul, se elimina el ul padre y se restructura levemente el codigo para que mantega la estructura pensada
