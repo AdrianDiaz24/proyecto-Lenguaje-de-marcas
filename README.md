@@ -212,3 +212,19 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
     - 12 Errors: No permitido el uso de li en los articles, se añaden en un ul lo cual soluciona el error
     - 92 Errors: No permitido el uso de br en los li, se retiran los br y se añade mas espacion desde el CSS
     - 10 Errors: No permitido que ul sea niño de otro ul, se elimina el ul padre y se restructura levemente el codigo para que mantega la estructura pensada
+      
+  - 3º Pestaña del carrito
+    - 11 Warnings: Considerar el uso de h2-h6 en el article, no se realiza cambios ya que alguno article son recuadros o no se ve necesario ponerlo
+    - 1 Warning: Considerar cambiar un h1 ya que puede dar fallos, se realiza el cambio de h1 a h2
+    - 1 Warning: Considerar usar un h2-h6 en el section no se realiza ya que es el recuadro
+      
+  - 4º Pesetaña de inicio de sesion y registro
+    - 6 Warnings: Considerar cambiar 2 h1 ya que pueden dar fallos, se realiza el cambio de h1 a h2
+    - 7 Warnings: Considerar usar h2-h6 en los article o div, no se realiza ya que son o recuadros o botones
+   
+  - 5º Pestaña del usuario
+    - 1 Error: No se permite un ul hijo de otro ul, se retira el ul padre y se hace una leve restructuracion edl codigo para mantener la estructura deseada
+    - 2 Errors: No se permite que un div sea hijo de una ul,
+    - 2 Errors: No se permite que un li sea hijo de un div, se añaden a ul que no modifica la estructura deseada
+    - 1 Error: No se permite que un div sea hijo de un ul, se saca al div fuera del ul
+    - 13 Warnings: se recomienda el uso de h2-h6 dentro de los articles, no se ponen ya que son recuadros o botones
