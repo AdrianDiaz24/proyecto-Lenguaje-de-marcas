@@ -24,6 +24,18 @@ Requisitos Funcionales:
   6º Footer:
   - Pie de pagina con informacion sobre la empresa (aviso legal, redes sociales, entre otra informacion util.)
 
+Requisitos no funcionales:
+
+  1º Compatibilidad:
+  - Compatible con los diferentes tipos de navegadores
+  - Compatible con diferentes tipos de resolucion
+
+  2º Rendimiento:
+  - Debe estar optimizado para cargar rapido las paginas
+
+  3º Mantenimiento:
+  - El codigo debe estar limpio y organizado
+
 # 2º Creación de un wireframe en Balsamiq:
 
 # 3º Estructura HTML planificada:
