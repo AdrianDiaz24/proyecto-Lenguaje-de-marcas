@@ -110,7 +110,7 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
     - H4: se usa para definir que se encontrara en cada columna
     - P y A: se usa para definir los apartados de cada columna y que los necesarios sean capaces de redirigirte a otra pagina
    
-  **2º Pestaña del producto**
+**2º Pestaña del producto**
 
 - Lang = "es": Se define el idioma principal al español
 - Head:
@@ -132,7 +132,7 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
     - H4: se usa para definir que se encontrara en cada columna
     - P y A: se usa para definir los apartados de cada columna y que los necesarios sean capaces de redirigirte a otra pagina
    
-  **3º Pestaña del carrito**
+**3º Pestaña del carrito**
 
 - Lang = "es": Se define el idioma principal al español
 - Head:
@@ -153,7 +153,7 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
     - H4: se usa para definir que se encontrara en cada columna
     - P y A: se usa para definir los apartados de cada columna y que los necesarios sean capaces de redirigirte a otra pagina
    
-  **4º Pestaña de inicio de sesion** (Esta estructura tambien es utilizada en la pestaña de registro)
+**4º Pestaña de inicio de sesion** (Esta estructura tambien es utilizada en la pestaña de registro)
 
 - Lang = "es": Se define el idioma principal al español
 - Head:
@@ -176,8 +176,8 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
     - Div: se uso para la creacion de las columnas de cada apartado del footer
     - H4: se usa para definir que se encontrara en cada columna
     - P y A: se usa para definir los apartados de cada columna y que los necesarios sean capaces de redirigirte a otra pagina
-   
-  **5º Pestaña del usuario**
+
+**5º Pestaña del usuario**
 
 - Lang = "es": Se define el idioma principal al español
 - Head:
