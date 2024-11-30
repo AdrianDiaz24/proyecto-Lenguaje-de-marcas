@@ -228,3 +228,7 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
     - 2 Errors: No se permite que un li sea hijo de un div, se añaden a ul que no modifica la estructura deseada
     - 1 Error: No se permite que un div sea hijo de un ul, se saca al div fuera del ul
     - 13 Warnings: se recomienda el uso de h2-h6 dentro de los articles, no se ponen ya que son recuadros o botones
+      
+  - CSS:
+    - 36 Errors: Parse Error, No se podia anidar dentro de las clases los @media por lo cual se sacan fueran de la clase y se soluciona los errores
+    - 1 Error: Padding-left: auto no es un valor de Padding-left, se elimina la linea de codigo y se soluciona el error
