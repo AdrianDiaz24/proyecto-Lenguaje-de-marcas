@@ -110,9 +110,9 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
     - H4: se usa para definir que se encontrara en cada columna
     - P y A: se usa para definir los apartados de cada columna y que los necesarios sean capaces de redirigirte a otra pagina
    
-  **2º Pestaña del producto**
+**2º Pestaña del producto**
 
-  - Lang = "es": Se define el idioma principal al español
+- Lang = "es": Se define el idioma principal al español
 - Head:
   - Title: Se define el nombre de la pagina en este caso Componentes Manolo
   - Link: Se linkea el HTML con el CSS para poder hacer el diseño a la pagina
@@ -132,9 +132,9 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
     - H4: se usa para definir que se encontrara en cada columna
     - P y A: se usa para definir los apartados de cada columna y que los necesarios sean capaces de redirigirte a otra pagina
    
-  **3º Pestaña del carrito**
+**3º Pestaña del carrito**
 
-  - Lang = "es": Se define el idioma principal al español
+- Lang = "es": Se define el idioma principal al español
 - Head:
   - Title: Se define el nombre de la pagina en este caso Componentes Manolo
   - Link: Se linkea el HTML con el CSS para poder hacer el diseño a la pagina
@@ -146,14 +146,16 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
     -  Imput (text): Para la creacion de la barra de busqueda
     -  Img y A: Para añadir las imagenes necesarias y que te redirigieran a las pestañas necesarias
   - Main:
+    - Section (Flex): Se crea la seccion con el atributo class para poder hacer que se mueste de forma "flex" y en columna, donde se mostraran los diferentes articulos añadidos al carrito
+    - Article: Se crea un articuilo para cada producto, este sera el que esta englobado por un recuadro y se montrara en horizontal y dentro de este iran las imagenes y nombre del prioducto siendo capaces de redirigir a la pestaña del producto, su precio y un boton para retira el producto del carrito
   - Footer:
     - Div: se uso para la creacion de las columnas de cada apartado del footer
     - H4: se usa para definir que se encontrara en cada columna
     - P y A: se usa para definir los apartados de cada columna y que los necesarios sean capaces de redirigirte a otra pagina
    
-  **4º Pestaña de inicio de sesion**
+**4º Pestaña de inicio de sesion** (Esta estructura tambien es utilizada en la pestaña de registro)
 
-  - Lang = "es": Se define el idioma principal al español
+- Lang = "es": Se define el idioma principal al español
 - Head:
   - Title: Se define el nombre de la pagina en este caso Componentes Manolo
   - Link: Se linkea el HTML con el CSS para poder hacer el diseño a la pagina
@@ -165,14 +167,19 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
     -  Imput (text): Para la creacion de la barra de busqueda
     -  Img y A: Para añadir las imagenes necesarias y que te redirigieran a las pestañas necesarias
   - Main:
+    - Article: Articulo principal que esta englobado en un recuadro y contiene los campos a rellenar, dentro de este hay otros "Article" que dividen cada apartado con su nombre y "input" correspondiente
+    - Input:
+      - Text: Se añade un input con el atributo Type="Text" para introducir el usuario y que se vea
+      - Password: Se añade el input con el atributo Type="Password" para que al introducir la contraseña los caracteres sean rellenados con *
+      - Div: se crean estos apartados donde se introducen unos "a" que forman un boton y te redirigen a la pesataña del usuario o a la de registro  
   - Footer:
     - Div: se uso para la creacion de las columnas de cada apartado del footer
     - H4: se usa para definir que se encontrara en cada columna
     - P y A: se usa para definir los apartados de cada columna y que los necesarios sean capaces de redirigirte a otra pagina
-   
-  **5º Pestaña del usuario**
 
-  - Lang = "es": Se define el idioma principal al español
+**5º Pestaña del usuario**
+
+- Lang = "es": Se define el idioma principal al español
 - Head:
   - Title: Se define el nombre de la pagina en este caso Componentes Manolo
   - Link: Se linkea el HTML con el CSS para poder hacer el diseño a la pagina
@@ -184,9 +191,24 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
     -  Imput (text): Para la creacion de la barra de busqueda
     -  Img y A: Para añadir las imagenes necesarias y que te redirigieran a las pestañas necesarias
   - Main:
+    - Article: El cual engloba cada opcion en un recuadro
+    - Details: Para crear los menus desplegables
+    - Sumary para que en esos menus desplegables salgan el nombre de la opcion que se desea en ese menu
   - Footer:
     - Div: se uso para la creacion de las columnas de cada apartado del footer
     - H4: se usa para definir que se encontrara en cada columna
     - P y A: se usa para definir los apartados de cada columna y que los necesarios sean capaces de redirigirte a otra pagina
 
-# 4º Informe de accesibilidad y mejoras aplicadas
+# 4º Validacion del Codigo
+
+- HTML:
+  - 1º Index
+    - 19 Warnings: Considerar el uso de h2-h6 en los article, no se añade ya que estos se encuentran en los botones de compra que se encuntran bien
+    - 1 Warning: Considerar no usar el h1 ya que puede dar fallos en algun otro dispositivo, Se cambia en h1 por un h2
+      
+  - 2º Pestañas de los productos (3 paginas)
+    - 12 Warnings: Considerar el uso de h2-h6, no se añade al ser errores en los botones de compra
+    - 6 Warnings: Considerar no usar el h1, se sustituye el h1 por el h2
+    - 12 Errors: No permitido el uso de li en los articles, se añaden en un ul lo cual soluciona el error
+    - 92 Errors: No permitido el uso de br en los li, se retiran los br y se añade mas espacion desde el CSS
+    - 10 Errors: No permitido que ul sea niño de otro ul, se elimina el ul padre y se restructura levemente el codigo para que mantega la estructura pensada
