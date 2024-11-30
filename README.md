@@ -112,7 +112,7 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
    
   **2º Pestaña del producto**
 
-  - Lang = "es": Se define el idioma principal al español
+- Lang = "es": Se define el idioma principal al español
 - Head:
   - Title: Se define el nombre de la pagina en este caso Componentes Manolo
   - Link: Se linkea el HTML con el CSS para poder hacer el diseño a la pagina
@@ -134,7 +134,7 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
    
   **3º Pestaña del carrito**
 
-  - Lang = "es": Se define el idioma principal al español
+- Lang = "es": Se define el idioma principal al español
 - Head:
   - Title: Se define el nombre de la pagina en este caso Componentes Manolo
   - Link: Se linkea el HTML con el CSS para poder hacer el diseño a la pagina
@@ -155,7 +155,7 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
    
   **4º Pestaña de inicio de sesion** (Esta estructura tambien es utilizada en la pestaña de registro)
 
-  - Lang = "es": Se define el idioma principal al español
+- Lang = "es": Se define el idioma principal al español
 - Head:
   - Title: Se define el nombre de la pagina en este caso Componentes Manolo
   - Link: Se linkea el HTML con el CSS para poder hacer el diseño a la pagina
@@ -179,7 +179,7 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
    
   **5º Pestaña del usuario**
 
-  - Lang = "es": Se define el idioma principal al español
+- Lang = "es": Se define el idioma principal al español
 - Head:
   - Title: Se define el nombre de la pagina en este caso Componentes Manolo
   - Link: Se linkea el HTML con el CSS para poder hacer el diseño a la pagina
