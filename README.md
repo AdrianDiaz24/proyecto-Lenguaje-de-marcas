@@ -56,4 +56,34 @@
 
 # 2º Creación de un wireframe en Balsamiq:
 
+1º Pagina principal
+
+![Wireframe del index.html](Images/Inicio.png)
+
+Se decide agregar tambien una seccion donde mostras los producctos que se encuentran de oferta y el footer con la informacion necesaria.
+
+2º Pestaña del producto
+
+![Wireframe de la pestaña del producto](Images/Producto.png)
+
+Se decide al final realizar un cambio dejando en el lado derecho los productos recomendados y abajo la descripcion y caracteristicas del producto.
+
+3º Pestaña del producto
+
+![Wireframe de la pestaña del carrito](Images/Carrito.png)
+
+Al final se decide cambiar el recuadro para en vez de englobar todos los produtos englobe cada producto un recuadro diferente, ademas de añadir un boton para retirar del carrito el producto.
+
+4º Pestaña de incio de sesion
+
+![Wireframe de la pestaña de inicio de sesion](Images/Iniciar_sesion.png)
+
+Se crea tambien una variante para el registro de nuevos usuarios
+
+5º Pestaña de usuario
+
+![Wireframe de la pestaña del usuario](Images/Usuario.png)
+
+Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedido se añaden la fecha en la que se realizo y un boton para gestionar incidencias, y se cambian la opcion de otros ajustes por metodos de pago
+
 # 3º Estructura HTML planificada:
