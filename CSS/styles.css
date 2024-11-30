@@ -652,19 +652,6 @@ li{
     display: none;
 }
 
-.menu_usuario{
-    display: none;
-    width: 100%;
-}
-
-#menu-usuario-toggle:checked ~ .menu_usuario{
-    display: block;
-}
-
-#menu-usuario-toggle:checked ~ .foto_flecha_derecha{
-    display: none;
-}
-
 .foto_flecha_derecha{
     width: 20px;
     height: 20px;
@@ -681,10 +668,6 @@ li{
     padding-top: 70%;
 }
 
-#menu-usuario-toggle:checked ~ .foto_flecha_derecha_usuario{
-    display: none;
-}
-
 .recuadro_interior_superior_usuario{
     display: flex;
     flex-direction: row;
@@ -697,14 +680,6 @@ li{
     height: 20px;
     cursor: pointer;
     padding-left: 15px;
-}
-
-#menu-pedidos-toggle:checked ~ .recuadro_pedido{
-    display: none;
-}
-
-#menu-pedidos-toggle:checked ~ .foto_flecha_derecha{
-    transform: rotate(90deg);
 }
 
 .boton_carrito{
