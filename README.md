@@ -146,12 +146,14 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
     -  Imput (text): Para la creacion de la barra de busqueda
     -  Img y A: Para añadir las imagenes necesarias y que te redirigieran a las pestañas necesarias
   - Main:
+    - Section (Flex): Se crea la seccion con el atributo class para poder hacer que se mueste de forma "flex" y en columna, donde se mostraran los diferentes articulos añadidos al carrito
+    - Article: Se crea un articuilo para cada producto, este sera el que esta englobado por un recuadro y se montrara en horizontal y dentro de este iran las imagenes y nombre del prioducto siendo capaces de redirigir a la pestaña del producto, su precio y un boton para retira el producto del carrito
   - Footer:
     - Div: se uso para la creacion de las columnas de cada apartado del footer
     - H4: se usa para definir que se encontrara en cada columna
     - P y A: se usa para definir los apartados de cada columna y que los necesarios sean capaces de redirigirte a otra pagina
    
-  **4º Pestaña de inicio de sesion**
+  **4º Pestaña de inicio de sesion** (Esta estructura tambien es utilizada en la pestaña de registro)
 
   - Lang = "es": Se define el idioma principal al español
 - Head:
@@ -165,6 +167,11 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
     -  Imput (text): Para la creacion de la barra de busqueda
     -  Img y A: Para añadir las imagenes necesarias y que te redirigieran a las pestañas necesarias
   - Main:
+    - Article: Articulo principal que esta englobado en un recuadro y contiene los campos a rellenar, dentro de este hay otros "Article" que dividen cada apartado con su nombre y "input" correspondiente
+    - Input:
+      - Text: Se añade un input con el atributo Type="Text" para introducir el usuario y que se vea
+      - Password: Se añade el input con el atributo Type="Password" para que al introducir la contraseña los caracteres sean rellenados con *
+      - Div: se crean estos apartados donde se introducen unos "a" que forman un boton y te redirigen a la pesataña del usuario o a la de registro  
   - Footer:
     - Div: se uso para la creacion de las columnas de cada apartado del footer
     - H4: se usa para definir que se encontrara en cada columna
@@ -184,6 +191,9 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
     -  Imput (text): Para la creacion de la barra de busqueda
     -  Img y A: Para añadir las imagenes necesarias y que te redirigieran a las pestañas necesarias
   - Main:
+    - Article: El cual engloba cada opcion en un recuadro
+    - Details: Para crear los menus desplegables
+    - Sumary para que en esos menus desplegables salgan el nombre de la opcion que se desea en ese menu
   - Footer:
     - Div: se uso para la creacion de las columnas de cada apartado del footer
     - H4: se usa para definir que se encontrara en cada columna
