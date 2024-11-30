@@ -221,3 +221,10 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
   - 4º Pesetaña de inicio de sesion y registro
     - 6 Warnings: Considerar cambiar 2 h1 ya que pueden dar fallos, se realiza el cambio de h1 a h2
     - 7 Warnings: Considerar usar h2-h6 en los article o div, no se realiza ya que son o recuadros o botones
+   
+  - 5º Pestaña del usuario
+    - 1 Error: No se permite un ul hijo de otro ul, se retira el ul padre y se hace una leve restructuracion edl codigo para mantener la estructura deseada
+    - 2 Errors: No se permite que un div sea hijo de una ul,
+    - 2 Errors: No se permite que un li sea hijo de un div, se añaden a ul que no modifica la estructura deseada
+    - 1 Error: No se permite que un div sea hijo de un ul, se saca al div fuera del ul
+    - 13 Warnings: se recomienda el uso de h2-h6 dentro de los articles, no se ponen ya que son recuadros o botones
