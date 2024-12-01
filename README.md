@@ -232,3 +232,19 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
   - CSS:
     - 36 Errors: Parse Error, No se podia anidar dentro de las clases los @media por lo cual se sacan fueran de la clase y se soluciona los errores
     - 1 Error: Padding-left: auto no es un valor de Padding-left, se elimina la linea de codigo y se soluciona el error
+   
+# 5º Comprobacion de accesibilidad, usabilidad y optimizacion
+
+  - Accesibilidad: (realizado con wave)
+    - Index:
+      - 3 Errores de contrastes: Se realiza la correccion de contraste del colo del descuento a uno que si pasara el text y siguiera con la tonalidad roja
+    - General:
+      - Errores: 1 en el menu hamburguesa el label esta vacio, no se realiza ningun cambio ya que es asi, otro en la barra de busqueda que no tiene tampoco contenido, el resto en los direntes inputs de las paginas que por el momento no tiene uso
+     
+- Usabilidad:
+  - Comprobado el correcto funcionamiento en diferentes resoluciones, pantallas y dispositibos
+  - Correcto funcionamiento en diferentes navegadores web como Opera GX, Chrome y Edge
+        
+- Optimizacion:
+  - Imagenes: Se comprimen lo suficiente para que ocupen lo menos posible sin variar la calidad
+  - CSS: Se eliminan lineas de codigo que no tenian uso
