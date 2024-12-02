@@ -102,7 +102,7 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
     -  Imput (text): Para la creacion de la barra de busqueda
     -  Img y A: Para añadir las imagenes necesarias y que te redirigieran a las pestañas necesarias
   - Main:
-    - Div: Uso del div para alinear en columnas las diferentes lienas de productos, las cuales son ordenadas por otro div con una clase, y dentro de estas lineas se encuentras los productos que son difenrenciados con div para cada uno de ellos
+    - Section y Article: Uso del section para alinear en columnas las diferentes lineas de productos, las cuales son ordenadas por otro section con una clase, y dentro de estas lineas se encuentras los productos que son difenrenciados con article para cada uno de ellos
     - A y Img para añadir las fotos y los nombres de los productos y sea redireccionados a la pestaña del producto
     - Div y A: se usa dentro de los productos para alinear el boton que se realiza con CSS y te redirige a la cesta y el precio 
   - Footer:
