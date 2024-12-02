@@ -203,7 +203,7 @@ Se decide que cada opcion este recuadrada y sea despregable, en la seccion pedid
 
 - HTML:
   - 1º Index
-    - 19 Warnings: Considerar el uso de h2-h6 en los article, no se añade ya que estos se encuentran en los botones de compra que se encuntran bien
+    - 35 Warnings: Considerar el uso de h2-h6 en los section y article, no se añade ya que estos se encuentran en los botones de compra que se encuntran bien o son usados en los recuadros para alinear los productos y contener los mismos
     - 1 Warning: Considerar no usar el h1 ya que puede dar fallos en algun otro dispositivo, Se cambia en h1 por un h2
       
   - 2º Pestañas de los productos (3 paginas)
